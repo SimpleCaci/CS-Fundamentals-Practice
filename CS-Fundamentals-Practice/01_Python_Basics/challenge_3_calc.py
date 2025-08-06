@@ -20,7 +20,7 @@ match operation: #switches essentially
     case "/":
         try:
             output = num1 / num2
-        except ZeroDivisionError:
+        except ZeroDivisionError:   
             print("Cannot divide by zero.")
 
 
